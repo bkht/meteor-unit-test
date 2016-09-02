@@ -1,6 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { splitString, alternateString, partitionString } from './stringHelpers';
+import { createRandomNumbersArray } from './numberHelpers'
 
 import './main.html';
 
@@ -62,3 +63,9 @@ Template.partition.events({
         instance.partitionedString.set(partitionedString);
     },
 });
+
+Template.numbers.onCreated(function helloOnCreated() {
+    console.log('numbers');
+    createRandomNumbersArray(50, 100, 3);
+});
+

@@ -13,22 +13,22 @@ describe('tests for stringHelpers', () => {
     it('should alternate lowercase and uppercase characters', () => {
         expect(alternateString('jack')).to.equal('JaCk');
     });
-    it('h should partition the string into [[\'he\']]', () => {
-        expect(partitionString('h')).to.eql([['h']]);
+    it("it should partition the string into ['h']", () => {
+        expect(partitionString('h')).to.eql(['h']);
     });
-    it('partitionString(\'helloworld\') should convert into [[\'he\'], [\'ll\'], [\'ow\'], [\'or\'], [\'ld\']]', () => {
-        expect(partitionString('helloworld')).to.eql([['he'], ['ll'], ['ow'], ['or'], ['ld']]);
+    it("partitionString('helloworld') should convert into [['he'], ['ll'], ['ow'], ['or'], ['ld']]", () => {
+        expect(partitionString('helloworld')).to.eql(['he', 'll', 'ow', 'or', 'ld']);
     });
-    it('partitionString(\'helloworldJ\') should convert into [[\'he\'], [\'ll\'], [\'ow\'], [\'or\'], [\'ld\'], [\'J\']]', () => {
-        expect(partitionString('helloworldJ')).to.eql([['he'], ['ll'], ['ow'], ['or'], ['ld'], ['J']]);
+    it("partitionString('helloworldJ') should convert into [['he'], ['ll'], ['ow'], ['or'], ['ld'], ['J']]", () => {
+        expect(partitionString('helloworldJ')).to.eql(['he', 'll', 'ow', 'or', 'ld', 'J']);
     });
-    it('partitionString(\'helloworld\', 3) should convert into [[\'hel\'], [\'low\'], [\'orl\'], [\'d\']]', () => {
-        expect(partitionString('helloworld', 3)).to.eql([['hel'], ['low'], ['orl'], ['d']]);
+    it("partitionString('helloworld', 3) should convert into [['hel'], ['low'], ['orl'], ['d']]", () => {
+        expect(partitionString('helloworld', 3)).to.eql(['hel', 'low', 'orl', 'd']);
     });
-    it('partitionString(\'helloworld\', 5) should convert into [[\'hello\'], [\'world\']]', () => {
-        expect(partitionString('helloworld', 5)).to.eql([['hello'], ['world']]);
+    it("partitionString('helloworld', 5) should convert into [['hello'], ['world']]", () => {
+        expect(partitionString('helloworld', 5)).to.eql(['hello', 'world']);
     });
-    it('randomArray(min=50, max=100, n=3) should convert into DESC Array', () => {
+    it('randomArray(min=50, max=100, n=3) should convert into DESC Array [x, y, z]', () => {
         // expect(createRandomNumbersArray(50, 100, 3)).to.eql([['hello'], ['world']]);
         var myArray = createRandomNumbersArray(50, 100, 3);
         // var myArray = [56, 68, 82];

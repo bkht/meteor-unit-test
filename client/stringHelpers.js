@@ -34,7 +34,6 @@ export function alternateString(string) {
 
 export function partitionString(string, number = 2) {
     var strArray = [];
-    var allArray = [];
     console.log(string);
     var length = string.length;
     var string2 = '';
@@ -42,14 +41,12 @@ export function partitionString(string, number = 2) {
         string2 += string[i];
         if ((string2.length==number) || (i == length-1)) {
             strArray.push(string2);
-            allArray.push(strArray);
-            strArray = [];
             string2= '';
         }
 
     }
-    console.log(allArray);
-    return allArray;
+    console.log(strArray);
+    return strArray;
 }
 
 export function capitalizeFirstLetter(string) {
