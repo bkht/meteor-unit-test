@@ -5,16 +5,33 @@
 <body>
 <h1>Welcome to Meteor!</h1>
 
-{{> hello}}
 {{> info}}
+{{> split}}
+{{> alternate}}
+{{> partition}}
 </body>
-
-<template name="hello">
-    <button>Split the string</button>
-    <p>Splitted string: {{splittedString}}</p>
-    <input type="text" id="inputString" placeholder="split the string">
-</template>
 
 <template name="info">
     <h2>Learn unit testing from Theuy!</h2>
+</template>
+
+<template name="split">
+    <h4>Split a string</h4>
+    <p>Splitted string: {{splittedString}}</p>
+    <input type="text" id="inputString" placeholder="split the string">
+    <button>Split</button><br>
+</template>
+
+<template name="alternate">
+    <h4>Alternate a string</h4>
+    <p>Alternated string: {{alternatedString}}</p>
+    <input type="text" id="inputString" placeholder="alternate the string">
+    <button>Alternate</button><br>
+</template>
+
+<template name="partition">
+    <h4>Partition a string</h4>
+    <p>Partition string: {{alternatedString}}</p>
+    <input type="text" id="inputString" placeholder="partition the string">
+    <button>Partition</button><br>
 </template>

@@ -1,14 +1,15 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { splitString } from './stringHelpers';
+import { splitString, alternateString, partitionString } from './stringHelpers';
 
 import './main.html';
 
-Template.hello.onCreated(function helloOnCreated() {
+Template.split.onCreated(function helloOnCreated() {
     this.splittedString = new ReactiveVar('');
+    splitString('Hello');
 });
 
-Template.hello.helpers({
+Template.split.helpers({
     counter() {
         return Template.instance().counter.get();
     },
@@ -17,9 +18,47 @@ Template.hello.helpers({
     }
 });
 
-Template.hello.events({
+Template.split.events({
     'click button'(event, instance) {
         let splittedString = splitString(document.getElementById('inputString').value);
         instance.splittedString.set(splittedString);
+    },
+});
+
+
+Template.alternate.onCreated(function helloOnCreated() {
+    this.alternatedString = new ReactiveVar('');
+    alternateString('Hello');
+});
+
+Template.alternate.helpers({
+    alternatedString() {
+        return Template.instance().alternatedString.get();
+    }
+});
+
+Template.alternate.events({
+    'click button'(event, instance) {
+        let alternatedString = alternateString(document.getElementById('inputString').value);
+        instance.alternatedString.set(alternatedString);
+    },
+});
+
+
+Template.partition.onCreated(function helloOnCreated() {
+    this.partitionedString = new ReactiveVar('');
+    partitionString('h');
+});
+
+Template.partition.helpers({
+    partitionedString() {
+        return Template.instance().partitionedString.get();
+    }
+});
+
+Template.partition.events({
+    'click button'(event, instance) {
+        let partitionedString = partitionString(document.getElementById('inputString').value);
+        instance.partitionedString.set(partitionedString);
     },
 });
