@@ -8,9 +8,9 @@ export function createRandomNumbersArray(min, max, length) {
         numberArray.push(value);
         console.log(`value: ${value}`);
     }
-    // numberArray.sort(sortNumber);
+    // Sort number array in descending order;
     numberArray.sort( (a, b) => {
-        return b - a;
+        return b - a;   // b - a = DESC, a - b = ASC
     });
     console.log(numberArray);
     return numberArray;
