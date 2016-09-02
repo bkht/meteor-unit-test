@@ -17,26 +17,46 @@
 </template>
 
 <template name="split">
+    <hr>
     <h4>Split a string</h4>
+    <input type="text" id="inputString" placeholder="string to be splitted">
+    <button>Split string</button>
     <p>Splitted string: {{splittedString}}</p>
-    <input type="text" id="inputString" placeholder="split the string">
-    <button>Split</button><br>
 </template>
 
 <template name="alternate">
-    <h4>Alternate a string</h4>
+    <hr>
+    <h4>Alternate case in a string</h4>
+    <input type="text" id="inputString" placeholder="string to be case alternated">
+    <button>Alternate case in string</button>
     <p>Alternated string: {{alternatedString}}</p>
-    <input type="text" id="inputString" placeholder="alternate the string">
-    <button>Alternate</button><br>
 </template>
 
 <template name="partition">
+    <hr>
     <h4>Partition a string</h4>
-    <p>Partition string: {{alternatedString}}</p>
-    <input type="text" id="inputString" placeholder="partition the string">
-    <button>Partition</button><br>
+    <input type="text" id="partitionString" placeholder="string to be partitioned">
+    <button>Partition string in a list</button>
+    <p>List:</p>
+    <ul>
+        {{#each partition in partitionedString}}
+            <li>{{partition}}</li>
+        {{/each}}
+    </ul>
 </template>
 
 <template name="numbers">
-    <h4>Numbers</h4>
+    <hr>
+    <h4>Create sorted list of random numbers</h4>
+    <input type="text" id="min" placeholder="min. value">
+    <input type="text" id="max" placeholder="max. value">
+    <input type="text" id="len" placeholder="length of array">
+    <button>Generate random numbers list</button>
+    <p>List:</p>
+    <ul>
+        {{#each number in numbersArray}}
+            <li>{{number}}</li>
+        {{/each}}
+    </ul>
+    <hr>
 </template>

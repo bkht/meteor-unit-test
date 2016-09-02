@@ -320,6 +320,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/cleanup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/templates_array/1.0.3/web.browser/packages/templates:array.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tmeasday_test-reporter-helpers/0.2.1/web.browser/test-reporter-helpers.js" />
       </sourceFilesUrls>
     </properties>
@@ -642,6 +643,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/cleanup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/templates_array/1.0.3/web.browser/packages/templates:array.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tmeasday_test-reporter-helpers/0.2.1/web.browser/test-reporter-helpers.js" />
     </CLASSES>
     <SOURCES />

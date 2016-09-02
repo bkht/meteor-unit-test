@@ -10,7 +10,7 @@ export function createRandomNumbersArray(min, max, length) {
     }
     // numberArray.sort(sortNumber);
     numberArray.sort( (a, b) => {
-        return a - b;
+        return b - a;
     });
     console.log(numberArray);
     return numberArray;

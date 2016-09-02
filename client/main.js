@@ -47,8 +47,8 @@ Template.alternate.events({
 
 
 Template.partition.onCreated(function helloOnCreated() {
-    this.partitionedString = new ReactiveVar('');
-    partitionString('h');
+    this.partitionedString = new ReactiveArray();
+    // partitionString('hello world');
 });
 
 Template.partition.helpers({
@@ -59,13 +59,34 @@ Template.partition.helpers({
 
 Template.partition.events({
     'click button'(event, instance) {
-        let partitionedString = partitionString(document.getElementById('inputString').value);
+        let partitionedString = partitionString(document.getElementById('partitionString').value);
+        console.log('partition.events');
+        console.log(partitionedString);
         instance.partitionedString.set(partitionedString);
     },
 });
 
+
 Template.numbers.onCreated(function helloOnCreated() {
+    this.numbersArray = new ReactiveArray();
     console.log('numbers');
     createRandomNumbersArray(50, 100, 3);
 });
 
+Template.numbers.helpers({
+    numbersArray() {
+        return Template.instance().numbersArray.get();
+    }
+});
+
+Template.numbers.events({
+    'click button'(event, instance) {
+        let min = parseInt(document.getElementById('min').value);
+        let max = parseInt(document.getElementById('max').value);
+        let len = parseInt(document.getElementById('len').value);
+        let numberArray = createRandomNumbersArray(min, max, len);
+        console.log('numbers.events');
+        console.log(numberArray);
+        instance.numbersArray.set(numberArray);
+    },
+});

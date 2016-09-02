@@ -37,7 +37,7 @@ describe('tests for stringHelpers', () => {
         var result3 = myArray[2];
         expect(result1).to.be.within(50,100);
         expect(myArray).to.have.lengthOf(3);
-        expect(result2).to.be.at.least(result1);
-        expect(result3).to.be.at.least(result2);
+        expect(result1).to.be.at.least(result2);
+        expect(result2).to.be.at.least(result3);
     });
 });
