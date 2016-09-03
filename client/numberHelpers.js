@@ -2,9 +2,9 @@
 
 export function createRandomNumbersArray(min, max, length) {
     console.log(`createRandomArray(${min}, ${max}, ${length})`);
-    var numberArray = [];
-    for (var i = 0; i < length; i++) {
-        var value = Math.floor(Math.random() * (max - min)) + min;
+    let numberArray = [];
+    for (let i = 0; i < length; i++) {
+        let value = Math.floor(Math.random() * (max - min)) + min;
         numberArray.push(value);
         console.log(`value: ${value}`);
     }

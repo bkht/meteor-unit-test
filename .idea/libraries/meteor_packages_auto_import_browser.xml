@@ -322,6 +322,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templates_array/1.0.3/web.browser/packages/templates:array.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tmeasday_test-reporter-helpers/0.2.1/web.browser/test-reporter-helpers.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -645,6 +647,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/practicalmeteor_mocha-core/1.0.1/web.browser/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templates_array/1.0.3/web.browser/packages/templates:array.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tmeasday_test-reporter-helpers/0.2.1/web.browser/test-reporter-helpers.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
     </CLASSES>
     <SOURCES />
   </library>

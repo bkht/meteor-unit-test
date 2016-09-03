@@ -25,3 +25,4 @@ tinytest
 practicalmeteor:chai
 practicalmeteor:mocha
 templates:array
+twbs:bootstrap

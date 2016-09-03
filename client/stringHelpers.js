@@ -7,9 +7,9 @@
 
 export function splitString(string) {
     console.log(string);
-    var length = string.length;
-    var string2 = '';
-    for (var i = 0; i < length; i++) {
+    let length = string.length;
+    let string2 = '';
+    for (let i = 0; i < length; i++) {
         string2 += string[i] + ' ';
     }
     console.log(string2);
@@ -18,9 +18,9 @@ export function splitString(string) {
 
 export function alternateString(string) {
     console.log(string);
-    var length = string.length;
-    var string2 = '';
-    for (var i = 0; i < length; i++) {
+    let length = string.length;
+    let string2 = '';
+    for (let i = 0; i < length; i++) {
         if (!(i % 2)) {
             string2 += string[i].toUpperCase();
         }
@@ -33,11 +33,11 @@ export function alternateString(string) {
 }
 
 export function partitionString(string, number = 2) {
-    var strArray = [];
+    let strArray = [];
     console.log(string);
-    var length = string.length;
-    var string2 = '';
-    for (var i = 0; i < length; i++) {
+    let length = string.length;
+    let string2 = '';
+    for (let i = 0; i < length; i++) {
         string2 += string[i];
         if ((string2.length==number) || (i == length-1)) {
             strArray.push(string2);
