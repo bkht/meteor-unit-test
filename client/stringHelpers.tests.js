@@ -31,7 +31,7 @@ describe('tests for stringHelpers', () => {
     it('randomArray(min=50, max=100, n=3) should convert into DESC Array [x, y, z]', () => {
         // expect(createRandomNumbersArray(50, 100, 3)).to.eql([['hello'], ['world']]);
         var myArray = createRandomNumbersArray(50, 100, 3);
-        // var myArray = [56, 68, 82];
+        // var myArray = [82, 68, 56];
         var result1 = myArray[0];
         var result2 = myArray[1];
         var result3 = myArray[2];

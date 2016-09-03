@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56be1d1c-f669-439c-90cb-897f0f768175" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/numberHelpers.js" afterPath="$PROJECT_DIR$/client/numberHelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stringHelpers.tests.js" afterPath="$PROJECT_DIR$/client/stringHelpers.tests.js" />
     </list>
     <list id="08d46968-dcd5-482c-80ac-30753090fef3" name="New changelist" comment="list arrays in html page&#10;" />
+    <list id="f5a82972-3481-47e0-8fdf-bd05c89049eb" name="added text in html page" comment="" />
     <ignored path="jackissupergoedintesten.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,8 +35,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="370">
+              <caret line="71" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -55,8 +57,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="1468">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringHelpers.tests.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stringHelpers.tests.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/stringHelpers.tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="461">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="e#67#168#0" expanded="true" />
               </folding>
@@ -94,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numberHelpers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="numberHelpers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/numberHelpers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="502">
@@ -149,9 +151,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/client/stringHelpers.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
+        <option value="$PROJECT_DIR$/client/numberHelpers.js" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/stringHelpers.tests.js" />
-        <option value="$PROJECT_DIR$/client/numberHelpers.js" />
       </list>
     </option>
   </component>
@@ -164,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1120" />
-    <option name="y" value="112" />
+    <option name="x" value="783" />
+    <option name="y" value="191" />
     <option name="width" value="2658" />
     <option name="height" value="1846" />
   </component>
@@ -336,13 +338,14 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="56be1d1c-f669-439c-90cb-897f0f768175" name="Default" comment="" />
       <changelist id="08d46968-dcd5-482c-80ac-30753090fef3" name="New changelist" comment="" />
+      <changelist id="f5a82972-3481-47e0-8fdf-bd05c89049eb" name="added text in html page" comment="" />
       <created>1472807858836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472807858836</updated>
       <workItem from="1472807860781" duration="4355000" />
       <workItem from="1472818333961" duration="12299000" />
-      <workItem from="1472837466484" duration="7430000" />
+      <workItem from="1472837466484" duration="8992000" />
     </task>
     <task id="LOCAL-00001" summary="update Readme with how to run application and test">
       <created>1472812037294</created>
@@ -390,10 +393,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24084000" />
+    <option name="totallyTimeSpent" value="25646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1120" y="112" width="2658" height="1846" extended-state="0" />
+    <frame x="783" y="191" width="2658" height="1846" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1423557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -598,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/stringHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="942">
@@ -614,18 +609,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/numberHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="1468">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="370">
+          <caret line="71" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -634,19 +645,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/stringHelpers.tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="461">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding>
             <element signature="e#67#168#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/numberHelpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
