@@ -91,7 +91,19 @@ Template.numbers.events({
     },
 });
 
+// Template.quote.onCreated(function helloOnCreated() {
+//     this.quoteString = new ReactiveVar('');
+//     quoteInterval = Meteor.setInterval(setQuote, 1000);
+// });
+//
+// Template.quote.onDestroyed(function helloOnDestroyed() {
+//     Meteor.clearInterval(quoteInterval);
+// });
+
 Template.quote.helpers({
+    // getQuote() {
+    //     return Template.instance().quoteString.get();
+    // }
     getQuote() {
         var quotes = [
             {
@@ -253,7 +265,7 @@ Template.quote.helpers({
         ];
         let length = quotes.length;
         let number = Math.floor(Math.random() * length);
-
+        // quoteString = quotes[number];
         return quotes[number];
     }
 });
